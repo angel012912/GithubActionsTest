@@ -5,7 +5,7 @@ it('GET /', async () => {
     
     const response = await supertest(app).get('/');
     console.log(response.status);
-    expect(response.status).toBe(202);
+    expect(response.status).toBe(200);
 });
 
 
